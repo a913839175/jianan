@@ -1,0 +1,167 @@
+<link rel="stylesheet" href="__CSS__/index.css"/>
+<!-- 文字轮播 -->
+<div class="wzlb_z clearfix">
+    <div id="banner_tabs" class="flexslider fl">
+        <ul class="slides">
+            <volist name="ad_info" id="vo">
+                <li>
+                    <img src="__IMG__/index/index08.png" class="anaan">
+                    <p class="slidems">{$vo.ad_name}</p>
+                    <div class="weizhi">
+                        {$vo.summary}
+                    </div>
+                    <a href="{$vo.ad_link}" class="slidegd">了解更多</a>
+                </li>
+            </volist>
+
+        </ul>
+        <ol id="bannerCtrl" class="flex-control-nav flex-control-paging">
+            <volist name="ad_info" id="vo">
+                <li><a>{$key}</a></li>
+            </volist>
+
+        </ol>
+    </div>
+    <img src="__IMG__/index/index03.jpg" class="fl wzlb_right">
+</div>
+<!-- 我们的服务 -->
+<div class="server">
+    <div class="servermindd">
+        <p class="serverbt">我们的服务</p>
+        <p class="serverxian"></p>
+        <ul class="serverul clearfix">
+            <li class="serverli fl">
+                <a href="__APP__/index/intserver">
+                    <img src="__IMG__/index/index04.png" class="serverimg">
+                    <p class="serverms">综合医疗服务</p>
+                </a>
+            </li>
+            <li class="serverli fl">
+                <a href="__APP__/index/medical">
+                    <img src="__IMG__/index/index05.png" class="serverimg">
+                    <p class="serverms">紧急医疗救援</p>
+                </a>
+            </li>
+            <li class="serverli fl">
+                <a href="__APP__/index/group#serliu">
+                    <img src="__IMG__/index/index06.png" class="serverimg">
+                    <p class="serverms">救援服务流程</p>
+                </a>
+            </li>
+            <li class="serverli fl">
+                <a href="__APP__/index/group#serliu">
+                    <img src="__IMG__/index/index07.png" class="serverimg">
+                    <p class="serverms">海外就医服务流程</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 为什么选择我们 -->
+<ul class="whychoose clearfix">
+    <li class="whychoo1 fl">
+        <p class="whychoos1">为什么</p>
+        <p class="whychoos2">选择我们</p>
+    </li>
+    <li class="whychoo2 fl">
+        <a class="whychoos3 blue" href="__APP__/index/group">具有医疗救援资质</a>
+        <a class="whychoos4 hui" href="__APP__/index/group">多语种24小时客服</a>
+    </li>
+    <li class="whychoo2 fl">
+        <a class="whychoos3 pink" href="__APP__/index/group">500以上城市救援网点</a>
+        <a class="whychoos4 blue" href="__APP__/index/group">千名顶级医疗专家团队</a>
+    </li>
+    <li class="whychoo2 fl">
+        <a class="whychoos3 blue" href="__APP__/index/group">标准医疗专用车救护团队</a>
+        <a class="whychoos4 hui" href="__APP__/index/group">大数据风险测评</a>
+    </li>
+</ul>
+
+
+<!-- 核心价值 -->
+<div class="hexin" style="margin-top: 40px;">
+    <img src="__IMG__/index/index15.jpg" class="hexinimg">
+    <ul class="hexinul clearfix">
+        <div class="hexindiv fl">
+            <img src="__IMG__/index/index08.png" class="hexindivimg">
+            <p class="heixinms">核心价值</p>
+        </div>
+        <li class="hexinli fl">
+            <img src="__IMG__/index/index09.png" class="hexinliimg mart35">
+            <p class="heixinlip1">VIP定制援助服务</p>
+            <p class="heixinlip2">专业化的定制援助服务</p>
+        </li>
+        <li class="hexinli fl">
+            <img src="__IMG__/index/index10.png" class="hexinliimg mart25">
+            <p class="heixinlip1">提升服务价值</p>
+            <p class="heixinlip2">个性化服务及全程跟踪</p>
+        </li>
+        <li class="hexinli fl">
+            <img src="__IMG__/index/index11.png" class="hexinliimg mart35">
+            <p class="heixinlip1">提升客户满意度</p>
+            <p class="heixinlip2">沟通多方 提高效率 降低风险</p>
+        </li>
+    </ul>
+</div>
+<!-- 国际性学术研讨会和培训 -->
+<div class="kej clearfix" style="margin-top: 20px;">
+    <div class="kejleft fl">
+        <p class="kejleftp1">{$ad_info_we[1]['ad_name']}</p >
+        <div class="kejleftp2">
+            {$ad_info_we[1]['summary']}
+        </div>
+        <a href="{$ad_info_we[1]['ad_link']}" class="slidegd2">了解更多</a>
+    </div>
+    <div class="kejright fl">
+        <p class="kejleftp5">{$ad_info_we[0]['ad_name']}</p >
+
+        <div class="kejleftp3">
+            {$ad_info_we[0]['summary']}
+        </div>
+        <a href="{$ad_info_we[0]['ad_link']}" class="slidegd3">了解更多</a>
+    </div>
+</div>
+<!-- 行业动态 -->
+<div class="news clearfix">
+    <div class="newleft fl">
+        <product where="`cid`=81 and `is_recommend`=1" order="`id` desc" limit="1">
+        <a href="__APP__/product/read/id/{$pro.id}"><div class="newms">{$pro.title|mb_substr=0,17,utf8}</div></a>
+        </product>
+    </div>
+    <div class="newright fr">
+        <div class="newrbt clearfix">
+            <p class="newrbt1 fl">行业动态</p>
+            <a class="newrbt2 fr" href="__APP__/product/index">更多></a>
+        </div>
+        <ul class="newcontent">
+            <product where="`cid`=81 and `is_recommend`=1" order="`id` desc" limit="1,9">
+            <li class="newcontentli">
+                <a class="fl" href="__APP__/product/read/id/{$pro.id}">{$pro.title|mb_substr=0,24,utf8}</a>
+                <p class="fr">{$pro.published|date="Y.m.d",###}</p>
+            </li>
+            </product>
+        </ul>
+    </div>
+</div>
+<script src="__JS__/jquery.min.1.10.2.js"></script>
+<script src="__JS__/slider.js"></script>
+<script type="text/javascript">
+    // 文字轮播
+    $(function() {
+        var bannerSlider = new Slider($('#banner_tabs'), {
+            time: 5000,
+            delay: 400,
+            event: 'hover',
+            auto: true,
+            mode: 'fade',
+            controller: $('#bannerCtrl'),
+            activeControllerCls: 'active'
+        });
+    })
+    // 核心价值的切换
+    $('.hexinli').on('click',function(){
+        $('.hexinli').css('background','#0cd8f1');
+        $(this).css('background','#fc92b5');
+
+    })
+</script>

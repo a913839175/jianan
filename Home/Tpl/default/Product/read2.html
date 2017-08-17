@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="__CSS__/groupbus.css"/>
+<!-- banner -->
+            <div class="jbanner">
+                <img src="__IMG__/groupbus/group02.png" class="jbanner01">
+            </div>
+            <p class="jlocation ">您的位置：首页 > 集团业务 > {$info.title}</p>
+            <!-- 具体的详情页 -->
+            <div class="juti mt20">
+                <p class="jutibt">{$info.title}</p>
+                <div class="jutiwenzi pt36">
+                    {$info.content}
+                </div>
+            </div>
+            
+            <script src="__JS__/jquery.min.1.10.2.js"></script>
+<script src="__JS__/slider.js"></script>
+<script type="text/javascript">
+    // tab切换
+    $(function() {
+        $('.businessleft2 li').on('click',function(){
+            busindex=$(this).index();
+            $('.businessleft2 li').find('.businessleft2_1').css('background','#f5f5f5');
+            $('.businessleft2 li').find('.businessleft2_2').css('background','#f5f5f5');
+            $(this).find('.businessleft2_1').css('background','#5dc6e2');
+            $(this).find('.businessleft2_2').css('background','#e7f9fc');
+            $('.biaos').css('display','none');
+            $('.business'+busindex).css('display','block');
+        })
+    })
+    $('.businessright5 p').eq(4).css('margin-top','30px')
+</script>

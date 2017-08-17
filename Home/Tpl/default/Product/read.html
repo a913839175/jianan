@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="__CSS__/industry.css"/>
+<!-- banner -->
+<div class="nbanner">
+    <div class="nbannerimg">
+        <div class="nabnnerbo">
+            <product where="`cid`=81 and `is_recommend`=1" order="`id` desc" limit="1">
+            <a href="__APP__/product/read/id/{$pro.id}"><p>{$pro.title}</p></a>
+            </product>
+
+        </div>
+    </div>
+</div>
+<!-- 标题 -->
+<div class="btxq">您的位置：首页 > 行业动态 > {$info.title}</div>
+<!-- 具体的详情页 -->
+<div class="juti mt20">
+    <p class="jutibt">{$info.title}</p>
+    <div class="jutiwenzi">
+    {$info.content}
+    </div>
+</div>
+
+<script src="__JS__/jquery.min.1.10.2.js"></script>
+<script src="__JS__/slider.js"></script>
+<script type="text/javascript">
+	// 文字轮播
+    $(function() {
+        var bannerSlider = new Slider($('#banner_tabs'), {
+            time: 5000,
+            delay: 400,
+            event: 'hover',
+            auto: true,
+            mode: 'fade',
+            controller: $('#bannerCtrl'),
+            activeControllerCls: 'active'
+        });
+    })
+    // 核心价值的切换
+    $('.hexinli').on('click',function(){
+    	$('.hexinli').css('background','#0cd8f1');
+    	$(this).css('background','#fc92b5');
+
+    })
+</script>

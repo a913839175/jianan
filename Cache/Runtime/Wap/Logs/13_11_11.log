@@ -1,0 +1,177 @@
+[ 2013-11-11T00:11:27+08:00 ] 127.0.0.1 /test1/wap.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `pa1_ad` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa1_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'wap' ) ORDER BY id DESC LIMIT 10   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa1_product` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `pa1_product` WHERE ( `lang` = 'zh-cn' ) ORDER BY id DESC LIMIT 10   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `pa1_tag` [ RunTime:0.006000s ]
+SQL: SELECT `content` FROM `pa1_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'wapindexwelcome' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: LANG_SWITCH_ON E:\wamp3\www\test1\Cache\Runtime\Wap\Cache\7a25813593918165c361010dffd2e28f.php 第 49 行.
+NOTIC: [8] Undefined index: url E:\wamp3\www\test1\Cache\Runtime\Wap\Cache\7a25813593918165c361010dffd2e28f.php 第 124 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-11T00:11:30+08:00 ] 127.0.0.1 /test1/wap.php/about/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `pa1_ad` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa1_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'wap' ) ORDER BY id DESC LIMIT 10   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `pa1_tag` [ RunTime:0.006000s ]
+SQL: SELECT `content` FROM `pa1_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'wapaboutus' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: LANG_SWITCH_ON E:\wamp3\www\test1\Cache\Runtime\Wap\Cache\8e83e25d0e6135a3f7611d7b5101ae19.php 第 37 行.
+NOTIC: [8] Undefined index: url E:\wamp3\www\test1\Cache\Runtime\Wap\Cache\8e83e25d0e6135a3f7611d7b5101ae19.php 第 95 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-11T00:11:31+08:00 ] 127.0.0.1 /test1/wap.php/product/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `pa1_ad` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `pa1_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'wap' ) ORDER BY id DESC LIMIT 10   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa1_product` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `pa1_product` WHERE ( `lang` = 'zh-cn' ) AND ( `wap_display` = 1 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: LANG_SWITCH_ON E:\wamp3\www\test1\Cache\Runtime\Wap\Cache\8e19fdfd8bec535e192c2188c434f297.php 第 37 行.
+NOTIC: [8] Undefined index: url E:\wamp3\www\test1\Cache\Runtime\Wap\Cache\8e19fdfd8bec535e192c2188c434f297.php 第 97 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-11T00:11:32+08:00 ] 127.0.0.1 /test1/wap.php/message/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `pa1_ad` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `pa1_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'wap' ) ORDER BY id DESC LIMIT 10   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: LANG_SWITCH_ON E:\wamp3\www\test1\Cache\Runtime\Wap\Cache\624b62dfcb255fcf9bd0a87e92bd443c.php 第 81 行.
+NOTIC: [8] Undefined variable: showtext E:\wamp3\www\test1\Cache\Runtime\Wap\Cache\624b62dfcb255fcf9bd0a87e92bd443c.php 第 124 行.
+NOTIC: [8] Undefined index: url E:\wamp3\www\test1\Cache\Runtime\Wap\Cache\624b62dfcb255fcf9bd0a87e92bd443c.php 第 162 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-11T00:11:32+08:00 ] 127.0.0.1 /test1/wap.php/contact/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `pa1_ad` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `pa1_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'wap' ) ORDER BY id DESC LIMIT 10   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `pa1_tag` [ RunTime:0.006000s ]
+SQL: SELECT `content` FROM `pa1_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'wapcontactus' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: LANG_SWITCH_ON E:\wamp3\www\test1\Cache\Runtime\Wap\Cache\cd0d37f8d9e966cd36e518bf17d07f3d.php 第 37 行.
+NOTIC: [8] Undefined index: url E:\wamp3\www\test1\Cache\Runtime\Wap\Cache\cd0d37f8d9e966cd36e518bf17d07f3d.php 第 95 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2013-11-11T00:11:33+08:00 ] 127.0.0.1 /test1/wap.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `pa1_ad` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `pa1_ad` WHERE ( `lang` = 'zh-cn' ) AND ( `position` = 'wap' ) ORDER BY id DESC LIMIT 10   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pa1_product` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `pa1_product` WHERE ( `lang` = 'zh-cn' ) ORDER BY id DESC LIMIT 10   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `pa1_tag` [ RunTime:0.006001s ]
+SQL: SELECT `content` FROM `pa1_tag` WHERE ( `lang` = 'zh-cn' ) AND ( `unique_id` = 'wapindexwelcome' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: LANG_SWITCH_ON E:\wamp3\www\test1\Cache\Runtime\Wap\Cache\7a25813593918165c361010dffd2e28f.php 第 49 行.
+NOTIC: [8] Undefined index: url E:\wamp3\www\test1\Cache\Runtime\Wap\Cache\7a25813593918165c361010dffd2e28f.php 第 124 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002001s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+

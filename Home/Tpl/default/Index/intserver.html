@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="__CSS__/groupbus.css"/>
+<!-- 综合医疗服务 -->
+<div class="contact">
+    <img src="__IMG__/contact/contact01.jpg" class="contactimg1">
+</div>
+<div class="business clearfix">
+    <div class="businessleft fl">
+        <div class="businessleft1">
+            <img src="__IMG__/index/index08.png" class="anaan">
+            <p class="businessleft1_1">迦南阳光医疗</p>
+        </div> 
+    </div>
+    <div class="busright fr">您的位置：首页 > 集团业务>综合医疗服务</div>
+</div>
+<div class="ylcontact ">
+    <div class="ylcontactwz clearfix">
+        <img src="__IMG__/groupbus/group06.png"  class="ylcontactleft fl">
+        <div class="ylcontactright fl ml40">
+            {$zhylfw.content}
+        </div>
+    </div>
+
+
+</div>
+<script src="__JS__/jquery.min.1.10.2.js"></script>
+<script src="__JS__/slider.js"></script>
+<script type="text/javascript">
+    // 关于我们切换
+    $(function() {
+        $('.businessleft2 li').on('click',function(){
+            busindex=$(this).index();
+            $('.businessleft2 li').find('.businessleft2_1').css('background','#f5f5f5');
+            $('.businessleft2 li').find('.businessleft2_2').css('background','#f5f5f5');
+            $(this).find('.businessleft2_1').css('background','#5dc6e2');
+            $(this).find('.businessleft2_2').css('background','#e7f9fc');
+            $('.biaos').css('display','none');
+            $('.aboutimg').css('display','none');
+            $('.business'+busindex).css('display','block');
+             $('.aboutimg'+busindex).css('display','block');
+        })
+    })
+    $('.businessright5 p').eq(4).css('margin-top','30px');
+
+    //企业优势的背景切换
+   $('.busyx').on('mouseover',function(){
+        $(this).find('.busyy').show();
+   })
+   $('.busyx').on('mouseout',function(){
+        $(this).find('.busyy').hide();
+   })
+   //综合医疗图片对齐
+   var yaimgl=$('.yaimg1_2').length;
+   for(i=0;i<yaimgl;i++){
+         if((i+1) % 3 == 0){
+            $('.yaimg1_2').eq(i).css('margin-right','0')
+         }
+      }
+</script>

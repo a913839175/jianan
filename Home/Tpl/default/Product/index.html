@@ -1,0 +1,112 @@
+<link rel="stylesheet" href="__CSS__/industry.css"/>
+<!-- banner -->
+<div class="nbanner">
+    <div class="nbannerimg">
+        <div class="nabnnerbo">
+            <product where="`cid`=81 and `is_recommend`=1" order="`id` desc" limit="1">
+            <a href="__APP__/product/read/id/{$pro.id}"><p>{$pro.title}</p></a>
+            </product>
+        </div>
+    </div>
+</div>
+<p class="jlocation ">您的位置：首页 > 行业动态</p>
+<!-- 国际性学术研讨会和培训 -->
+<div class="kej clearfix mt39">
+    <div class="kejleft fl">
+        <p class="kejleftp1">{$ad_info_we[0]['ad_name']}</p>
+        <div class="kejleftp2">
+            {$ad_info_we[0]['summary']}
+        </div>
+        <a href="{$ad_info_we[0]['ad_link']}" class="slidegd2">了解更多</a>
+    </div>
+    <div class="newright fr">
+        <div class="newrbt clearfix">
+            <p class="newrbt1 fl">行业动态</p>
+            <a class="newrbt2 fr" href="__APP__/product/index2">更多></a>
+        </div>
+        <ul class="newcontent">
+            <product where="`cid`=81 and `is_recommend`=1" order="`id` desc" limit="1,9">
+            <li class="newcontentli">
+                <a class="fl" href="__APP__/product/read/id/{$pro.id}">{$pro.title}</a>
+                <p class="fr">{$pro.published|date="Y.m.d",###}</p>
+            </li>
+            </product>
+        </ul>
+    </div>
+
+</div>
+<!-- 我们的服务 -->
+<div class="server">
+    <div class="servermindd">
+        <p class="serverbt">我们的服务</p>
+        <p class="serverxian"></p>
+        <ul class="serverul clearfix">
+            <li class="serverli fl">
+                <a href="__APP__/index/intserver">
+                    <img src="__IMG__/index/index04.png" class="serverimg">
+                    <p class="serverms">综合医疗服务</p>
+                </a>
+            </li>
+            <li class="serverli fl">
+                <a href="__APP__/index/medical">
+                    <img src="__IMG__/index/index05.png" class="serverimg">
+                    <p class="serverms">紧急医疗救援</p>
+                </a>
+            </li>
+            <li class="serverli fl">
+                <a href="__APP__/index/group#serliu">
+                    <img src="__IMG__/index/index06.png" class="serverimg">
+                    <p class="serverms">救援服务流程</p>
+                </a>
+            </li>
+            <li class="serverli fl">
+                <a href="__APP__/index/group#serliu">
+                    <img src="__IMG__/index/index07.png" class="serverimg">
+                    <p class="serverms">海外就医服务流程</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 为什么选择我们 -->
+<ul class="whychoose clearfix mb68">
+    <li class="whychoo1 fl">
+        <p class="whychoos1">为什么</p>
+        <p class="whychoos2">选择我们</p>
+    </li>
+    <li class="whychoo2 fl">
+        <a class="whychoos3 blue" href="__APP__/index/group">具有医疗救援资质</a>
+        <a class="whychoos4 hui" href="__APP__/index/group">多语种24小时客服</a>
+    </li>
+    <li class="whychoo2 fl">
+        <a class="whychoos3 pink" href="__APP__/index/group">500以上城市救援网点</a>
+        <a class="whychoos4 blue" href="__APP__/index/group">千名顶级医疗专家团队</a>
+    </li>
+    <li class="whychoo2 fl">
+        <a class="whychoos3 blue" href="__APP__/index/group">标准医疗专用车救护团队</a>
+        <a class="whychoos4 hui" href="__APP__/index/group">大数据风险测评</a>
+    </li>
+</ul>
+
+<script src="__JS__/jquery.min.1.10.2.js"></script>
+<script src="__JS__/slider.js"></script>
+<script type="text/javascript">
+    // 文字轮播
+    $(function() {
+        var bannerSlider = new Slider($('#banner_tabs'), {
+            time: 5000,
+            delay: 400,
+            event: 'hover',
+            auto: true,
+            mode: 'fade',
+            controller: $('#bannerCtrl'),
+            activeControllerCls: 'active'
+        });
+    })
+    // 核心价值的切换
+    $('.hexinli').on('click',function(){
+        $('.hexinli').css('background','#0cd8f1');
+        $(this).css('background','#fc92b5');
+
+    })
+</script>

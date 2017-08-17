@@ -1,0 +1,1 @@
+<div class="footer"> &copy; 2012-2013 <a href="http://blog.51edm.org" target="_blank">2326工作室</a> 天才小耒耒 </div>

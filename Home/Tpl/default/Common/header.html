@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{$webtitle}-{$site.SITE_INFO.name}</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="<php>if($info['keywords']){</php>{$info['keywords']}<php>}else{</php>{$webtitle},{$site.SITE_INFO.keyword}<php>}</php>">
+        <meta name="description" content="<php>if($info['description']){</php>{$info['description']}<php>}else{</php>{$webtitle}-{$site.SITE_INFO.description}<php>}</php>">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="renderer" content="webkit"/>
+        
+        <link rel="stylesheet" href="__CSS__/public.css"/>
+    </head>
+    <body>
+        <div class="bigbox">
+            <div class="small">
+            <div class="boxtop" >
+                <div class="boxmiddle clearfix">
+                    <p class="boxleft  fl">迦南阳光集团欢迎您</p>
+                    <p class="boxright fr">
+                        <img src="__IMG__/index/index01.png" alt="photo">
+                        <span>紧急救援电话 {$site.SITE_INFO.tel}</span>
+                    </p>
+                </div>
+            </div>
+            <!-- nav -->
+            <div class="header">
+                <div class="headermiddle clearfix">
+                    <a href="__APP__/index.php"><img src="__IMG__/index/index02.jpg" class="fl headerimg1"></a>
+                    <ul class="headerright fr clearfix">
+                        <li><a href="__APP__/" <if condition="$webtitle=='首页' || $webtitle2=='首页'">class="headeractive"</if> >首页</a></li>
+                        <li><a href="__APP__/index/about" <if condition="$webtitle=='关于我们'">class="headeractive"</if>>关于我们</a></li>
+                        <li><a href="__APP__/index/group" <if condition="$webtitle=='集团业务'|| $webtitle2=='集团业务'">class="headeractive"</if>>集团业务</a></li>
+                        <li><a href="__APP__/product/index" <if condition="$webtitle=='行业动态' || $webtitle2=='行业动态'">class="headeractive"</if>>行业动态</a></li>
+                        <li><a href="__APP__/index/contact" <if condition="$webtitle=='联系我们'">class="headeractive"</if>>联系我们</a></li>
+                    </ul>	
+                </div>
+            </div>
+            </div>
+            <div class="padd110" ></div>

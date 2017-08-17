@@ -1,0 +1,37 @@
+/*联系我们*/
+.business0{width: 688px;}
+.businessright1{text-align: right;font-size: 16px;color: #4c4c4c;padding-top: 18px;}
+.businessright2{width: 688px;border-bottom: 1px solid #d9d9d9;font-size: 22px;line-height: 35px;padding-top: 41px;}
+.businessrightul{width: 688px;margin-bottom: 65px;}
+.businessrightul li{padding-top: 25px;}
+.businessright3_1{width: 179px;height: 127px;display: block;}
+.businessright4{width: 477px;}
+.businessright4 p:first-child{margin-top: 0px;}
+.businessright4 p{width: 477px;height: 23px;overflow: hidden;font-size: 16px;color: #4c4c4c;margin-top: 4px;}
+
+/*业务合作*/
+.business1{width: 688px;}
+.businessright5 p:first-child{margin-top: 0px;}
+.businessright5 p{width: 477px;height: 23px;overflow: hidden;font-size: 16px;color: #4c4c4c;margin-top: 4px;}
+
+
+/*精英招聘*/
+.business1{width: 688px;}
+.business2_1{font-size: 16px;color: #333333;margin-top: 18px;margin-bottom: 35px;}
+.business2_2{font-size: 16px;color: #333333;}
+.business2_3{font-size: 16px;color: #333333;margin-top: 10px;}
+.business2_4{width: 688px;height: 79px;background: #c6f3fb;margin-top: 35px;}
+.business2_4 p{font-size: 16px;padding-top: 10px;}
+.newrbt{width: 688px;height: 34px;border-bottom:1px solid #c9c9c9;}
+.newrbt1{font-size: 18px;color: #333333;line-height: 34px;}
+.newrbt2{display: block;font-size: 18px;color: #666666;line-height: 34px;}
+.recruit{width: 688px;height: 36px;background: #e7f9fc;margin-top: 20px;}
+.recruit span{font-size: 16px;color: #333333;line-height: 36px;}
+.pl7{padding-left: 7px;}
+.pl200{padding-left: 200px;}
+.mb70{margin-bottom: 70px;}
+.recruitul{width: 688px;}
+.recruitli{width: 688px;}
+.recruitli01{width: 688px;height: 36px;line-height: 36px;font-size: 16px;color: #333333;background: #f5f5f5;}
+.recruitliw{margin-top: 18px;margin-bottom: 20px;}
+.recruitliw p{color: #4c4c4c;font-size: 16px;line-height: 30px;}

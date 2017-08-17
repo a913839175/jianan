@@ -1,0 +1,58 @@
+/*文字轮播*/
+.wzlb_z{width: 1080px;margin: 0 auto;}
+.wzlb_left{width: 540px;height: 461px;}
+.flexslider {position: relative;width: 540px;height: 460px;overflow: hidden;}
+.flexslider .slides li {width: 100%;height: 100%;background: #5dc6e2;}
+.anaan{width: 94px;height: 28px;margin: 0 auto;display: block;margin-top: 100px;}
+.slidems{font-size: 36px;color: #fff;line-height: 42px;text-align: center;padding-top: 25px;}
+.weizhi{width: 540px;padding-top: 40px;}
+.weizhi p{text-align: center;color: #fff;font-size: 14px;line-height: 20px;}
+.slidegd{width: 144px;height: 30px;border: 1px solid #fff;text-align: center;display:block;margin: 0 auto;font-size: 18px;color: #fff;margin-top: 26px;line-height: 30px;}
+.flex-control-nav {width: 100%;position: absolute;bottom: 10px;text-align: center;}
+.flex-control-nav li {margin: 0 2px;display: inline-block;zoom: 1;*display: inline;}
+.flex-control-paging li a {background: url(../images/index/dot.png) no-repeat 0 -16px;display: block;height: 16px;overflow: hidden;text-indent: -99em;width: 16px;cursor: pointer;}
+.flex-control-paging li a.flex-active,
+.flex-control-paging li.active a {background-position: 0 0;}
+.flexslider .slides a img {width: 100%;height: 482px;display: block;}
+.wzlb_right{width: 540px;height: 460px;display: block;}
+
+
+/*国际性学术研讨会和培训*/
+.kej{width: 1080px;margin: 0 auto;margin-top: 4px;}
+.kejleft{width: 540px;height: 460px;background: #0cd8f1;}
+.kejleftp1{font-size: 36px;color: #fff;text-align: center;padding-top: 118px;line-height: 27px;}
+.kejleftp2{width: 480px;margin: 0 auto;}
+.kejleftp2 p{font-size: 16px;color: #fff;line-height: 27px;text-indent: 2em;}
+.kejleftp2 p:first-child{padding-top: 48px;}
+.kejleftp3{width: 480px;margin: 0 auto;}
+.kejleftp3 p{font-size: 16px;color: #808080;line-height: 27px;text-indent: 2em;}
+.kejleftp3 p:first-child{padding-top: 48px;}
+.slidegd2{width: 144px;height: 30px;border: 1px solid #fff;text-align: center;display:block;margin: 0 auto;font-size: 18px;color: #fff;margin-top: 26px;line-height: 30px;}
+.kejright{width: 540px;height: 460px;background: #fdf6ea;}
+.kejleftp5{font-size: 36px;color: #808080;text-align: center;padding-top: 118px;line-height: 27px;}
+.slidegd3{width: 144px;height: 30px;border: 1px solid #808080;text-align: center;display:block;margin: 0 auto;font-size: 18px;color: #808080;margin-top: 52px;line-height: 30px;}
+/*核心价值*/
+.hexin{width: 1080px;margin: 0 auto;margin-top: 75px;}
+.hexinimg{width: 1080px;height: 343px;display: block;}
+.hexinul{width: 1080px;height: 169px;overflow: hidden;}
+.hexindiv{width: 268px;height: 169px;background: #fc92b5;}
+.hexindivimg{width: 92px;height: 22px;display: block;margin: 0 auto;padding-top: 50px;}
+.heixinms{font-size: 30px;color: #fff;text-align: center;padding-top: 14px;}
+.hexinli{width: 268px;height: 169px;background: #0cd8f1;margin-left: 2.5px;cursor: pointer;}
+.hexinliimg{display: block;margin: 0 auto;}
+.heixinlip1{font-size: 24px;color: #fff;text-align: center;line-height: 43px;}
+.heixinlip2{font-size: 14px;color: #fff;text-align: center;line-height: 25px;}
+.mart35{margin-top: 35px;}
+.mart25{margin-top: 23px;}
+/*行业动态*/
+.news{width: 1080px;margin: 0 auto;margin-top: 35px;margin-bottom: 77px;}
+.newleft{width: 541px;height: 363px;position: relative;background: url(../images/index/index16.jpg) no-repeat;}
+.newms{width: 540px;height: 63px;position: absolute;position: absolute;background: url(../images/index/index17.png) no-repeat;bottom: 0;font-size: 26px;color: #fff;line-height: 63px;padding-left: 24px;}
+.newright{width: 502px;height: 367px;overflow: hidden;}
+.newrbt{width: 502px;height: 49px;border-bottom:1px solid #c9c9c9;}
+.newrbt1{font-size: 22px;color: #333333;line-height: 49px;}
+.newrbt2{display: block;font-size: 16px;color: #666666;line-height: 49px;}
+.newcontent{width: 502px;margin-top: 11px;height: 405px;}
+.newcontentli{width: 502px;height: 26px;overflow: hidden;margin-top: 9px;}
+.newcontentli a{display: block;width: 396px;height: 26px;overflow: hidden;margin-left: 3px;font-size: 16px;line-height: 26px;color: #333333;}
+.newcontentli p{display: block;width: 101px;height: 26px;overflow: hidden;font-size: 14px;line-height: 26px;text-align: right;color: #666666;}

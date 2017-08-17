@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="__CSS__/industry.css"/>
+<!-- banner -->
+<div class="nbanner">
+    <div class="nbannerimg">
+        <div class="nabnnerbo">
+            <product where="`cid`=81 and `is_recommend`=1" order="`id` desc" limit="1">
+            <a href="__APP__/product/read/id/{$pro.id}"><p>{$pro.title}</p></a>
+            </product>
+        </div>
+    </div>
+</div>
+<!-- 标题 -->
+<div class="btxq">您的位置：首页 > 行业动态 > 更多</div>
+<!-- 了解详情 -->
+<div class="details mt20">
+    <p class="detailsbt">行业动态</p>
+    <ul class="detailsul clearfix">
+        <volist name="list" id="vo">
+        <li class="detailsli clearfix">
+            <img src="__UPLOAD__/product/{$vo.image}" class="detailslileft fl">
+            <div class="detailsliright fr">
+                <a href="__APP__/product/read/id/{$vo.id}"><p class="detailsliright1">{$vo.title}</p></a>
+                <a href="__APP__/product/read/id/{$vo.id}"><p class="detailsliright2">{$vo.summary}</p></a>
+                <a href="__APP__/product/read/id/{$vo.id}" class="detailsgd">了解详情></a>
+            </div>
+        </li>
+        </volist>
+    </ul>
+    <div class="page mtb50">
+        <div class="list_table_page">
+            {$page}</div>
+    </div>
+</div>
+<script src="__JS__/jquery.min.1.10.2.js"></script>
+<script src="__JS__/slider.js"></script>
+<script type="text/javascript">
+    // 文字轮播
+    $(function() {
+        var bannerSlider = new Slider($('#banner_tabs'), {
+            time: 5000,
+            delay: 400,
+            event: 'hover',
+            auto: true,
+            mode: 'fade',
+            controller: $('#bannerCtrl'),
+            activeControllerCls: 'active'
+        });
+    })
+    // 核心价值的切换
+    $('.hexinli').on('click',function(){
+        $('.hexinli').css('background','#0cd8f1');
+        $(this).css('background','#fc92b5');
+
+    })
+</script>

@@ -1,0 +1,47 @@
+/*企业简介*/
+.business0{width: 688px;}
+.businessright1{text-align: right;font-size: 16px;color: #4c4c4c;padding-top: 18px;}
+.businessright2{font-size: 24px;padding-top: 35px;}
+.businessright3{width: 642px;font-size: 16px;color: #4c4c4c;text-indent: 2em;margin-left: 20px;line-height: 22px;margin-bottom: 6px;text-align:justify}
+.mt45{margin-top: 45px;}
+.mt32{margin-top: 32px;}
+.aboutimg0{width: 1080px;margin: 0 auto;margin-top: 163px;margin-bottom: 60px;}
+.aboutimg1{width: 1080px;margin: 0 auto;margin-top: 163px;margin-bottom: 60px;display: none;}
+.aboutimg2{width: 1080px;margin: 0 auto;margin-top: 163px;margin-bottom: 60px;display: none;}
+.aboutimg3{width: 1080px;margin: 0 auto;margin-top: 163px;margin-bottom: 60px;display: none;}
+.aboutimg01{width: 1016px;height: 338px;display: block;margin-left: 66px;}
+.business1{width: 688px;display: none;}
+.business2{width: 688px;display: none;}
+.mt34{margin-top: 34px;}
+.businimgz{width: 687px;}
+.businimg01{width: 685px;height: 220px;display: block;}
+.businsmall{width: 685px;}
+.businsmall01{width: 340px;height: 272px;display: block;}
+.businsmall02{width: 340px;height: 272px;display: block;}
+.mt14{margin-top: 14px;}
+.mt8{margin-top:8px;}
+.mb39{margin-top:39px;}
+.mt33{margin-top:33px;}
+.mt10{margin-top: 10px;}
+.aboutxian{width: 687px;height: 1px;background: #d9d9d9;}
+.business3{width: 688px;display: none;}
+.businimgtx{width: 687px;}
+.businimgtx1{width: 687px;height: 220px;background: url(../images/aboutus/aboutus02.jpg) no-repeat;position: relative;}
+.busyy1{width: 687px;height: 220px;display: table;background: rgba(0,0,0,0.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);}
+.kuohao{width: 486px;height: 84px;background: url(../images/aboutus/aboutus03.png) no-repeat;position: absolute;left: 105px;top: 74px;}
+.kuohao p{width: 486px;height: 84px;line-height: 84px;color: #fff;font-size: 24px;text-align: center;}
+.businimgbx{width: 687px;margin-top: 7px;}
+.businimgbx01{width: 211px;height: 272px;display: block;background: url(../images/aboutus/aboutus04.jpg) no-repeat;}
+.busyy5{width: 211px;height: 272px;display: table;background: rgba(0,0,0,0.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);}
+.businimgbx01 p{font-size: 20px;color: #fff;display: table-cell; vertical-align:middle; text-align:center;}
+.businimgbxmidd{width: 238px;margin-left: 8px;}
+.businimgbx02{width: 239px;height: 136px;display: block;background: url(../images/aboutus/aboutus05.jpg) no-repeat;}
+.busyy2{width: 239px;height: 136px;display: table;background: rgba(0,0,0,0.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);}
+.businimgbx02 p{font-size: 20px;color: #fff;display: table-cell; vertical-align:middle; text-align:center;}
+.businimgbx03{width: 238px;height: 128px;display: block;margin-top: 6px;background: url(../images/aboutus/aboutus06.jpg) no-repeat;}
+.busyy3{width: 238px;height: 128px;display: table;background: rgba(0,0,0,0.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);}
+.businimgbx03 p{font-size: 20px;color: #fff;display: table-cell; vertical-align:middle; text-align:center;}
+.businimgbx04{width: 222px;height: 272px;display: block;background: url(../images/aboutus/aboutus10.jpg) no-repeat;}
+.busyy4{width: 222px;height: 272px;display: table;background: rgba(0,0,0,0.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);}
+.businimgbx04 p{font-size: 20px;color: #fff;display: table-cell; vertical-align:middle; text-align:center;line-height: 41px;}
+.busyy{display: none;}

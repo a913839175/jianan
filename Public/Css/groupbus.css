@@ -1,0 +1,76 @@
+/* banner */
+.jbanner{width: 1080px;height: 460px;background: url(../images/groupbus/group01.jpg) no-repeat;margin: 0 auto;position: relative;}
+.jbanner01{width: 419px;height: 123px;position: absolute;left: 337px;top:167px;}
+.jlocation{text-align: right;line-height: 30px;height: 16px;width: 1080px;margin: 0 auto;height: 30px;color: #4c4c4c;margin-top: 13px;font-size: 16px;}
+/* 综合医疗服务 */
+.zhserver{width: 1080px;margin: 0 auto;}
+.zhserverimg01{width:1080px;height:26px;margin: 0 auto;}
+.zhserver01{width: 1080px;margin-top: 42px;margin-bottom: 12px;}
+.zhserver01left{width: 808px;height: 250px;background: #0cd8f1;}
+.zhserver01left_1{color: #fff;font-size: 22px;padding-left: 25px;padding-top: 29px;padding-bottom: 18px;}
+.zhserver01left_2 p{color: #fff;font-size: 14px;padding-left: 25px;padding-bottom: 8px;}
+
+.zhserver01left_3{width: 144px;height: 30px;border: 1px solid #fff;text-align: center;display: block;font-size: 18px;color: #fff;line-height: 30px;margin-left: 25px;margin-top: 10px;} 
+.zhserver01right{width: 262px;height: 250px;background: #fc92b5;}
+.zhserver01right_1{color: #fff;font-size:22px;padding-left: 25px;padding-top: 29px;padding-bottom: 9px;}
+.zhserver01right_2 p{color: #fff;font-size: 14px;padding-left: 25px;width: 207px;padding-bottom: 8px;} 
+.zhserver02{width: 1080px;height: 234px;background: #5dc6e2;}
+.zhserver02_1{font-size:22px;color: #fff;text-align: center;padding-top: 30px;padding-bottom: 20px;}
+.zhserver02_2 p{font-size: 14px;color: #fff;text-align: center;padding-bottom: 8px}
+.zhserver01left_4{width: 144px;height: 30px;border: 1px solid #fff;text-align: center;display: block;font-size: 18px;color: #fff;line-height: 30px;margin:0 auto;margin-top: 10px;}
+/* 个人医疗服务 */
+.perserver{width: 1080px;margin: 0 auto;}
+.zhserverimg02{width:1080px;height:26px;margin: 0 auto;margin-top: 89px;}
+.perserver01left{width: 808px;height: 250px;background: #f1c30c;}
+.perserver01right_2 p{color: #fff;font-size: 14px;padding-left: 25px;width: 207px;padding-bottom: 8px;line-height: 24px;}
+.perserver02{width: 1080px;}
+.perserverf{width: 323px;height: 355px;}
+.perserverf_1{width: 323px;height: 186px;background: #0cd8f1;}
+.perserverf_1ms{font-size:22px;color: #fff;text-align: center;padding-top: 17px;padding-bottom: 10px;}
+.perserverf_2ms p{font-size: 14px;color: #fff;text-align: center;padding-bottom:2px;}
+.perserverf_2{width: 323px;height: 158px;background: #5dc6e2;margin-top: 10px;}
+.perserverf_3ms p{font-size: 14px;color: #fff;text-align: center;margin-bottom: 7px;}
+.perservers{width: 337px;height: 355px;background: #5dc6e2;margin-left: 12px;}
+.perservers_1{font-size:22px;text-align: center;color: #fff;padding-top: 70px;padding-bottom: 22px;}
+.perservers_2 p{text-align: center;font-size: 14px;color: #fff;padding-bottom: 8px;}
+.perservert{width: 396px;height: 355px;background: #5dc6e2;margin-left: 12px;}
+/*救援和海外服务流程*/
+.serliu{width: 1080px;height: 200px;background: #f5f5f5;margin: 0 auto;}
+.serliu01{font-size: 26px;color: #4c4c4c;text-align: center;padding: 30px 0;}
+.serliuz{width: 1080px;}
+.serliuz_1{width: 201.6px;height: 62px;text-align: center;background: #0cd8f1;line-height: 62px;color: #fff;font-size: 22px;}
+.serliuz_2{width: 201.6px;height: 62px;text-align: center;background: #5dc6e2;line-height: 62px;color: #fff;font-size: 22px;}
+.serliuz_3{width: 201.6px;height: 62px;text-align: center;background: #fc92b5;line-height: 62px;color: #fff;font-size: 22px;}
+.serliuimg{width: 12px;height: 12px;display:block;margin:0 3px;margin-top: 26px;}
+/*迦南科技新闻*/
+.jnnew{width: 1080px;margin: 0 auto;}
+.jnnew li{padding-bottom: 70px;}
+.jnnew_bt{width: 1080px;height: 34px;border-bottom:1px solid #b3b3b3;}
+.jnnew_bt1{width: 7px;height: 24px;background: #5dc6e2;margin-top: 6px;}
+.jnnew_bt2{padding-left: 24px;font-size: 26px;color: #4c4c4c;}
+.jnnew_bt3{color:#808080;font-size: 18px;padding-top: 5px;display: block;}
+.jnnewwz{width: 1080px;clear: both;padding-top: 23px;}
+.jnnewwz1 p{width: 1080px;color: #666666;text-indent:2em;font-size: 16px;line-height: 27px;}
+
+/*紧急医疗救援*/
+.busright{font-size: 16px;color: #4c4c4c;padding-top: 18px;}
+.ylcontact{width: 1080px;margin: 0 auto;border-top:1px solid #5dc6e2;margin-top: 55px;}
+.ylcontactwz{width: 1080px;margin-top: 40px;}
+.ylcontactleft{width: 96px;height: 96px;display: block;margin-left: 67px;}
+.ylcontactright{width: 877px;}
+.ylcontactright1{font-size: 20px;color: #5dc6e2;padding-top: 24px;padding-bottom: 18px;clear: both;}
+.ylcontactright2{font-size: 16px;color: #333333;line-height: 25px;}
+.ylcontactright3{font-size: 16px;color: #333333;padding-bottom: 22px;font-weight: bold;}
+.mb133{margin-bottom: 133px;}
+.ml40{margin-left: 40px;}
+
+/*综合医疗服务*/
+.zhcontactright1{font-size: 16px;color: #4c4c4c;margin-bottom: 30px;}
+.ylcontactright2{width: 877px;font-size: 16px;color: #333333;line-height: 25px;text-indent: 2em;}
+.ylcontact2left{width: 534px;font-size: 16px;color: #333333;line-height: 25px;}
+.ylcontact2right{width: 343px}
+.yzimg{width: 877px;margin-top: 22px;margin-bottom: 55px;}
+.yaimg1_1{width: 434px;height: 233px;display: block;}
+.yaimg1_2{width: 287px;height: 233px;display: block;margin-right: 8px;}
+.yaimg2{margin-top: 6px;}
+.mt
